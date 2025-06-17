@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
+import NavBar from "../components/NavBar";
 
 function Movie() {
-  return (
-    <>
-      <header>
-        {/* What component should go here? */}
-      </header>
-      <main>
-        {/* Movie info here! */}
-      </main>
-    </>
-  );
-};
+	return (
+		<>
+			<header>
+				<NavBar />
+			</header>
+			<main>
+				<h1>Movie</h1>
+			</main>
+		</>
+	);
+}
 
 export default Movie;
