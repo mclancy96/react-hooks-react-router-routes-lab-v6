@@ -22,10 +22,13 @@ function Movie() {
 			</header>
 			<main>
 				<h1>{movie.title}</h1>
-				<p>{movie.time}</p>
-				{movie.genres.map((genre) => (
-					<span>{genre}</span>
-				))}
+				<p>Run Time: {movie.time} minutes</p>
+				<div>
+					<h2>Genres</h2>
+					{movie.genres.map((genre) => (
+						<span>{genre}</span>
+					))}
+				</div>
 			</main>
 		</>
 	);
