@@ -21,12 +21,10 @@ function Movie() {
 				<NavBar />
 			</header>
 			<main>
-				<h1>Movie</h1>
-				<p>{movie.id}</p>
-				<p>{movie.title}</p>
+				<h1>{movie.title}</h1>
 				<p>{movie.time}</p>
 				{movie.genres.map((genre) => (
-					<p>{genre}</p>
+					<span>{genre}</span>
 				))}
 			</main>
 		</>

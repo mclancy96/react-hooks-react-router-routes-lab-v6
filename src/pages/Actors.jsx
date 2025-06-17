@@ -8,7 +8,7 @@ function Actors() {
 				<NavBar />
 			</header>
 			<main>
-				<h1>Actors</h1>
+				<h1>Actors Page</h1>
 			</main>
 		</>
 	);

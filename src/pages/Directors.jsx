@@ -8,7 +8,7 @@ function Directors() {
 				<NavBar />
 			</header>
 			<main>
-				<h1>Directors</h1>
+				<h1>Directors Page</h1>
 			</main>
 		</>
 	);
