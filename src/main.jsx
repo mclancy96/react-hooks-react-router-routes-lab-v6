@@ -2,20 +2,19 @@ import "./index.css";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import routes from "./routes.jsx";
-import NavBar from "./components/NavBar.jsx";
 
 const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // const Main = () => {
-// 	return (
-// 		<>
-// 			<header>
-// 				<NavBar />
-// 			</header>
-// 			<RouterProvider router={router} />
-// 		</>
-// 	);
+//   return (
+//     <>
+//       <header>
+//         <NavBar />
+//       </header>
+//       <RouterProvider router={router} />
+//     </>
+//   );
 // };
 // root.render(<Main />);
 
